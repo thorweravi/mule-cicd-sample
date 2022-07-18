@@ -31,6 +31,18 @@
 				<extensions>true</extensions>
 				<configuration>
 					<classifier>mule-application</classifier>
+					<configuration>
+        		<cloudHubDeployment>
+            <uri>https://anypoint.mulesoft.com</uri>
+            <muleVersion>4.2.2</muleVersion>
+            <username>RaviThorwe1</username>
+            <password>suniT@88276</password>
+            <applicationName>mulesoft-cicd-sample</applicationName>
+            <environment>Sandbox</environment>
+            <workerType>MICRO</workerType>
+            <objectStoreV2>true</objectStoreV2>
+       	 </cloudHubDeployment>
+    </configuration>
 				</configuration>
 			</plugin>
 		</plugins>
